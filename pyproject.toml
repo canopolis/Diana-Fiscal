@@ -1,0 +1,9 @@
+[project]
+name = "diana-fiscal"
+version = "0.1.0"
+description = "Facturación electrónica e-CF directa con la DGII (República Dominicana)"
+requires-python = ">=3.10"
+dependencies = ["lxml>=5", "cryptography>=42", "requests>=2.31", "qrcode>=7"]
+
+[tool.setuptools]
+packages = ["diana_fiscal"]
